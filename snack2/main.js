@@ -1,10 +1,10 @@
 'use strict';
 
 const parolaPrima = prompt ('Inserisci la prima parola');
-console.log (parolaPrima);
+console.log ('La prima parola è: ', parolaPrima);
 
 const parolaSeconda = prompt ('inserisci la seconda parola');
-console.log(parolaSeconda);
+console.log('La seconda parola è: ', parolaSeconda);
 
 if (parolaPrima.length < parolaSeconda.length) {
     console.log('La parola più corta è:', parolaPrima);
