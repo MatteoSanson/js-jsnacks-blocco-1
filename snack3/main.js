@@ -9,6 +9,7 @@ for (let i = 1; i <= 10; i++) {
   if (!isNaN(numeroUtente)) {
     somma += numeroUtente;
     console.log (`Il ${i}° numero che hai inserito e ${numeroUtente[i - 1]}`);
+    console.log (`la somma al momento è ${somma}`);
   } else {
     i = i - 1;
     alert("Non hai inserito un numero.");
