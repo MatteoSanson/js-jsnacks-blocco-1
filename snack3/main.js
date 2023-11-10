@@ -4,13 +4,15 @@
 
 let somma = 0;
 
-for (let i = 0; i < 10; i++) {
-  let numeroUtente = Number(prompt("Inserisci un numero:"));
+for (let i = 1; i <= 10; i++) {
+  let numeroUtente = Number(prompt(`${i} - Inserisci un numero:`));
   if (!isNaN(numeroUtente)) {
     somma += numeroUtente;
-    console.log (numeroUtente);
+    console.log (`Il ${i}° numero che hai inserito e ${numeroUtente[i - 1]}`);
   } else {
+    i = i - 1;
     alert("Non hai inserito un numero.");
+    console.log (numeroUtente);
   }
 }
 
