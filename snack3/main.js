@@ -5,7 +5,7 @@
 let somma = 0;
 
 for (let i = 0; i < 10; i++) {
-  let numeroUtente = parseInt(prompt("Inserisci un numero:"));
+  let numeroUtente = Number(prompt("Inserisci un numero:"));
   if (!isNaN(numeroUtente)) {
     somma += numeroUtente;
     console.log (numeroUtente);
