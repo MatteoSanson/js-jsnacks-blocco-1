@@ -3,7 +3,7 @@
 const parolaPrima = prompt ('Inserisci la prima parola');
 console.log (parolaPrima);
 
-const parolaSeconda = prompt ('inserisci la seconda parla');
+const parolaSeconda = prompt ('inserisci la seconda parola');
 console.log(parolaSeconda);
 
 if (parolaPrima.length < parolaSeconda.length) {
